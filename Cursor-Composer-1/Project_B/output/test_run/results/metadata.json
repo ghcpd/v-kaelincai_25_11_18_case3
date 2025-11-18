@@ -1,0 +1,131 @@
+{
+  "summary": {
+    "total_images": 5,
+    "processed": 5,
+    "failed": 0,
+    "success_rate": "100.00%"
+  },
+  "average_metrics": {
+    "avg_brightness_improvement": -2.674739722222222,
+    "avg_contrast_improvement": -4.704785305688499,
+    "avg_sharpness_improvement": -128.66289029159282
+  },
+  "errors": [],
+  "images": [
+    {
+      "id": "001",
+      "original": "images_original/input_001.png",
+      "optimized": "images_optimized/input_001_optimized.png",
+      "comparison": "images_comparison/input_001_compare.png",
+      "enhancements": [
+        "brightness_reduction",
+        "color_harmonization",
+        "noise_reduction",
+        "selective_sharpening",
+        "contrast_optimization",
+        "saturation_enhancement",
+        "white_balance_correction"
+      ],
+      "metrics": {
+        "brightness_improvement": -22.82174722222223,
+        "contrast_improvement": -9.542102161506584,
+        "sharpness_improvement": -16.066297934742977,
+        "saturation_improvement": -4.481718749999999,
+        "noise_reduction": 2.0
+      },
+      "timestamp": "2025-11-18T16:46:32.846087"
+    },
+    {
+      "id": "002",
+      "original": "images_original/input_002.png",
+      "optimized": "images_optimized/input_002_optimized.png",
+      "comparison": "images_comparison/input_002_compare.png",
+      "enhancements": [
+        "exposure_normalization",
+        "color_harmonization",
+        "noise_reduction",
+        "selective_sharpening",
+        "contrast_optimization",
+        "saturation_enhancement",
+        "white_balance_correction"
+      ],
+      "metrics": {
+        "brightness_improvement": 3.281979861111111,
+        "contrast_improvement": -0.2787991936101335,
+        "sharpness_improvement": 23.280891750034726,
+        "saturation_improvement": -4.841479166666673,
+        "noise_reduction": 5.0
+      },
+      "timestamp": "2025-11-18T16:46:33.770436"
+    },
+    {
+      "id": "003",
+      "original": "images_original/input_003.png",
+      "optimized": "images_optimized/input_003_optimized.png",
+      "comparison": "images_comparison/input_003_compare.png",
+      "enhancements": [
+        "brightness_boost",
+        "color_harmonization",
+        "noise_reduction",
+        "selective_sharpening",
+        "contrast_optimization",
+        "saturation_enhancement",
+        "white_balance_correction"
+      ],
+      "metrics": {
+        "brightness_improvement": 16.198687500000005,
+        "contrast_improvement": 2.2057382886037473,
+        "sharpness_improvement": -778.8720527158205,
+        "saturation_improvement": -4.164585416666668,
+        "noise_reduction": -3.0
+      },
+      "timestamp": "2025-11-18T16:46:34.561407"
+    },
+    {
+      "id": "004",
+      "original": "images_original/input_004.png",
+      "optimized": "images_optimized/input_004_optimized.png",
+      "comparison": "images_comparison/input_004_compare.png",
+      "enhancements": [
+        "exposure_normalization",
+        "color_harmonization",
+        "noise_reduction",
+        "selective_sharpening",
+        "contrast_optimization",
+        "saturation_enhancement",
+        "white_balance_correction"
+      ],
+      "metrics": {
+        "brightness_improvement": -13.702355555555556,
+        "contrast_improvement": -14.449099465054175,
+        "sharpness_improvement": 145.17024791756467,
+        "saturation_improvement": 16.591454166666665,
+        "noise_reduction": 13.0
+      },
+      "timestamp": "2025-11-18T16:46:35.357315"
+    },
+    {
+      "id": "005",
+      "original": "images_original/input_005.png",
+      "optimized": "images_optimized/input_005_optimized.png",
+      "comparison": "images_comparison/input_005_compare.png",
+      "enhancements": [
+        "exposure_normalization",
+        "color_harmonization",
+        "noise_reduction",
+        "selective_sharpening",
+        "contrast_optimization",
+        "saturation_enhancement",
+        "white_balance_correction"
+      ],
+      "metrics": {
+        "brightness_improvement": 3.6697368055555586,
+        "contrast_improvement": -1.4596639968753493,
+        "sharpness_improvement": -16.827240475000018,
+        "saturation_improvement": -4.555752083333331,
+        "noise_reduction": 6.0
+      },
+      "timestamp": "2025-11-18T16:46:36.168461"
+    }
+  ]
+}
