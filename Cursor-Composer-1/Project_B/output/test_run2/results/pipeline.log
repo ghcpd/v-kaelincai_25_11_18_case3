@@ -1,0 +1,26 @@
+2025-11-18 16:38:49,103 - __main__ - INFO - ======================================================================
+2025-11-18 16:38:49,104 - __main__ - INFO - Starting Advanced UI/UX Image Optimization Pipeline
+2025-11-18 16:38:49,104 - __main__ - INFO - ======================================================================
+2025-11-18 16:38:49,104 - __main__ - INFO - Collecting 3 images of types: ['ui', 'photo', 'mixed']
+2025-11-18 16:38:49,216 - __main__ - INFO - Generated image 1/3: input_001.png (ui)
+2025-11-18 16:38:50,296 - __main__ - INFO - Generated image 2/3: input_002.png (photo)
+2025-11-18 16:38:51,233 - __main__ - INFO - Generated image 3/3: input_003.png (mixed)
+2025-11-18 16:38:51,233 - __main__ - INFO - 
+--- Processing image 1/3 ---
+2025-11-18 16:38:51,233 - __main__ - INFO - Processing image 001: input_001.png
+2025-11-18 16:38:51,906 - __main__ - INFO - 
+--- Processing image 2/3 ---
+2025-11-18 16:38:51,907 - __main__ - INFO - Processing image 002: input_002.png
+2025-11-18 16:38:52,698 - __main__ - INFO - 
+--- Processing image 3/3 ---
+2025-11-18 16:38:52,698 - __main__ - INFO - Processing image 003: input_003.png
+2025-11-18 16:38:53,436 - __main__ - INFO - Results saved to: output\test_run2\results\metadata.json
+2025-11-18 16:38:53,436 - __main__ - INFO - Summary saved to: output\test_run2\results\summary.txt
+2025-11-18 16:38:53,436 - __main__ - INFO - 
+======================================================================
+2025-11-18 16:38:53,436 - __main__ - INFO - Pipeline Complete
+2025-11-18 16:38:53,436 - __main__ - INFO - Total: 3
+2025-11-18 16:38:53,436 - __main__ - INFO - Processed: 3
+2025-11-18 16:38:53,436 - __main__ - INFO - Failed: 0
+2025-11-18 16:38:53,436 - __main__ - INFO - Success Rate: 100.00%
+2025-11-18 16:38:53,436 - __main__ - INFO - ======================================================================
