@@ -1,0 +1,40 @@
+[
+  {
+    "id": "alpha_001",
+    "description": "Cramped dashboard with inconsistent spacing",
+    "tags": [
+      "ui",
+      "normal"
+    ],
+    "original": "results\\artifacts\\project_alpha\\images_original\\alpha_001_original.png",
+    "optimized": "results\\artifacts\\project_alpha\\images_optimized\\alpha_001_optimized.png",
+    "comparison": "results\\artifacts\\project_alpha\\images_comparison\\alpha_001_compare.png",
+    "status": "ok",
+    "notes": "layout margins cleaned, palette harmonized, clarity boosted"
+  },
+  {
+    "id": "alpha_002",
+    "description": "Marketing banner with vibrant colors",
+    "tags": [
+      "marketing"
+    ],
+    "original": "results\\artifacts\\project_alpha\\images_original\\alpha_002_original.png",
+    "optimized": "results\\artifacts\\project_alpha\\images_optimized\\alpha_002_optimized.png",
+    "comparison": "results\\artifacts\\project_alpha\\images_comparison\\alpha_002_compare.png",
+    "status": "ok",
+    "notes": "layout margins cleaned, palette harmonized, clarity boosted"
+  },
+  {
+    "id": "alpha_003",
+    "description": "App screenshot with low contrast text",
+    "tags": [
+      "ui",
+      "long"
+    ],
+    "original": "results\\artifacts\\project_alpha\\images_original\\alpha_003_original.png",
+    "optimized": "results\\artifacts\\project_alpha\\images_optimized\\alpha_003_optimized.png",
+    "comparison": "results\\artifacts\\project_alpha\\images_comparison\\alpha_003_compare.png",
+    "status": "ok",
+    "notes": "layout margins cleaned, palette harmonized, clarity boosted"
+  }
+]

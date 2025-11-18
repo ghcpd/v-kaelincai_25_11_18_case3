@@ -1,0 +1,30 @@
+{
+  "project_alpha": {
+    "metrics": {
+      "processed": 3,
+      "success_rate": 1.0,
+      "failure_rate": 0.0,
+      "edge_case_success_rate": 0.0
+    },
+    "processed_ids": [
+      "alpha_001",
+      "alpha_002",
+      "alpha_003"
+    ]
+  },
+  "project_beta": {
+    "metrics": {
+      "processed": 5,
+      "success_rate": 0.8,
+      "failure_rate": 0.2,
+      "edge_case_success_rate": 1.0
+    },
+    "processed_ids": [
+      "beta_001",
+      "beta_002",
+      "beta_003",
+      "beta_004",
+      "beta_005"
+    ]
+  }
+}

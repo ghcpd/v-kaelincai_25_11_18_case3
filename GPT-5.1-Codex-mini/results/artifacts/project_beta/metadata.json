@@ -1,0 +1,68 @@
+[
+  {
+    "id": "beta_001",
+    "description": "Low-resolution prototype mock",
+    "tags": [
+      "edge",
+      "low_res"
+    ],
+    "original": "results\\artifacts\\project_beta\\images_original\\beta_001_original.png",
+    "optimized": "results\\artifacts\\project_beta\\images_optimized\\beta_001_optimized.png",
+    "comparison": "results\\artifacts\\project_beta\\images_comparison\\beta_001_compare.png",
+    "status": "ok",
+    "notes": "layout margins cleaned, palette harmonized, clarity boosted"
+  },
+  {
+    "id": "beta_002",
+    "description": "Tiny icon-sized snapshot",
+    "tags": [
+      "boundary",
+      "tiny",
+      "edge"
+    ],
+    "original": "results\\artifacts\\project_beta\\images_original\\beta_002_original.png",
+    "optimized": "results\\artifacts\\project_beta\\images_optimized\\beta_002_optimized.png",
+    "comparison": "results\\artifacts\\project_beta\\images_comparison\\beta_002_compare.png",
+    "status": "ok",
+    "notes": "layout margins cleaned, palette harmonized, clarity boosted"
+  },
+  {
+    "id": "beta_003",
+    "description": "Very large billboard-style photo",
+    "tags": [
+      "boundary",
+      "photo"
+    ],
+    "original": "results\\artifacts\\project_beta\\images_original\\beta_003_original.png",
+    "optimized": "results\\artifacts\\project_beta\\images_optimized\\beta_003_optimized.png",
+    "comparison": "results\\artifacts\\project_beta\\images_comparison\\beta_003_compare.png",
+    "status": "ok",
+    "notes": "layout margins cleaned, palette harmonized, clarity boosted"
+  },
+  {
+    "id": "beta_004",
+    "description": "Malformed upload (corrupt file)",
+    "tags": [
+      "invalid"
+    ],
+    "original": "results\\artifacts\\project_beta\\images_original\\beta_004_original.png",
+    "optimized": "results\\artifacts\\project_beta\\images_optimized\\beta_004_optimized.png",
+    "comparison": "results\\artifacts\\project_beta\\images_comparison\\beta_004_compare.png",
+    "status": "failed",
+    "notes": "simulated asset corruption"
+  },
+  {
+    "id": "beta_005",
+    "description": "Mixed UI + photo collage",
+    "tags": [
+      "mixed",
+      "photo",
+      "ui"
+    ],
+    "original": "results\\artifacts\\project_beta\\images_original\\beta_005_original.png",
+    "optimized": "results\\artifacts\\project_beta\\images_optimized\\beta_005_optimized.png",
+    "comparison": "results\\artifacts\\project_beta\\images_comparison\\beta_005_compare.png",
+    "status": "ok",
+    "notes": "layout margins cleaned, palette harmonized, clarity boosted"
+  }
+]
