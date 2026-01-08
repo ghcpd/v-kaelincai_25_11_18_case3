@@ -1,0 +1,152 @@
+You are a software engineer responsible for implementing and testing the capabilities of AI models on the UI/UX improvement subtype within the Feature & improvement category.
+Your task is to provide a working Python implementation that performs UI/UX improvement, handling optimizations, edge cases, and ensuring correctness and efficiency.
+You must implement a complete pipeline that:
+1.	automatically collects or generates a batch of images (screenshots, photos, mixed assets),
+2.	performs UI/UX visual enhancement on each image,
+3.	outputs the original and optimized versions into two separate folders,
+4.	optionally generates comparison images,
+5.	includes automated testing and a fully reproducible environment.
+You also need to generate automated test cases and a reproducible environment to verify your implementation.
+Generate code files for two projects with a before-and-after comparison, and store them in two separate folders.
+Ensure that all necessary setup files (e.g., requirements.txt, setup.sh), test code, and an automated run script (run_tests.sh) are generated so that all tests can be executed with a single command.
+________________________________________
+Title
+Evaluation of Codex-mini, Cursor-Composer-1, Claude-Sonnet-4.5 on Feature & improvement for UI/UX improvement
+________________________________________
+Description
+This experiment evaluates AI models’ ability to perform UI/UX-oriented visual optimization on real-world images.
+The evaluation focuses on a realistic scenario where the model must automatically gather or generate a set of imperfect images (screenshots, app UIs, marketing banners, photos) and enhance them visually—improving layout clarity, style consistency, readability, color harmony, and overall UX aesthetics—while preserving the original semantic content.
+Key evaluation criteria include:
+•	Correctness of implementations for UI/UX improvement
+•	Efficiency and optimization of processing
+•	Proper handling of edge cases such as malformed inputs, hidden vulnerabilities, non-string inputs, complex nested code
+•	Automated tests verifying consistent image optimization behavior
+•	Reproducible environment setup
+•	One-click testing with an automated run script
+•	Quantitative metrics: number of images processed, pass/fail ratio, edge-case coverage, structural consistency across output folders
+________________________________________
+Requirements for the AI Model Output
+1. Test Scenario & Description
+The model must clearly describe the test scenarios validating the image optimization pipeline, including:
+•	Automatic image gathering or generation
+•	UI/UX-based visual enhancement (layout clarity, color harmony, style normalization)
+•	Before-and-after image pairing
+•	Expected formats for input/output (preferably JSON structures listing original/optimized/comparison images)
+________________________________________
+2. Test Data Generation
+Generate at least five structured test cases, covering:
+•	Normal flows (valid image input → valid optimization)
+•	Edge cases (low-resolution images, noisy screenshots)
+•	Boundary cases (very large images, very small images)
+•	Invalid/malformed inputs (broken files, wrong format)
+•	Mixed image types (UI screenshots + photos)
+Each test case must include:
+•	input description
+•	expected result (successful optimization, graceful failure, or fallback behavior)
+________________________________________
+3. Reproducible Environment
+Provide:
+•	requirements.txt with all dependencies (e.g., Pillow, OpenCV, requests, numpy)
+•	setup.sh for installing environment dependencies
+•	Optional Dockerfile
+•	Documentation describing how to set up and run the environment
+________________________________________
+4. Test Code
+Provide Python test code that:
+1.	feeds test images to the implementation,
+2.	captures the optimized output images,
+3.	compares them to expected outcomes,
+4.	verifies the existence and integrity of three folders:
+o	/images_original
+o	/images_optimized
+o	/images_comparison
+5.	evaluates metrics such as:
+o	number of processed images
+o	pass/fail rate
+o	edge-case success rate
+________________________________________
+5. Execution Scripts
+Generate run_tests.sh that:
+•	prepares the environment
+•	runs the image-optimization pipeline
+•	executes automated tests
+•	generates result summaries
+•	stores logs and outputs in /results
+________________________________________
+6. Expected Output
+For each processed image, the model must output:
+1.	Original image
+/images_original/input_001.png
+2.	Optimized image
+/images_optimized/input_001.png
+3.	Comparison image (optional but recommended)
+/images_comparison/input_001_compare.png
+4.	JSON entry describing the image mapping:
+{
+  "id": "001",
+  "original": "images_original/input_001.png",
+  "optimized": "images_optimized/input_001.png",
+  "comparison": "images_comparison/input_001_compare.png",
+  "notes": "Improved spacing, unified color palette, enhanced readability."
+}
+________________________________________
+7. Documentation / Explanation
+Provide:
+•	How to run the pipeline
+•	How images are gathered/generated
+•	How UI/UX improvements are applied
+•	Explanation for each test scenario
+•	Potential pitfalls:
+o	over-stylization
+o	semantic drift
+o	incorrect folder structure
+o	inconsistent style across optimized images
+•	Limitations:
+o	optimization is aesthetic, not semantic
+o	web-scraping variability
+o	differences between generated images and real screenshots
+________________________________________
+Scenario Definition for <SUB_TYPE_LIST>
+Scenario Name
+UI/UX 视觉素材自动优化与风格统一任务（自动采集/生成 → 模型优化 → 前后对比）
+________________________________________
+Scenario Overview
+The model must acquire or generate a set of images containing UI screenshots, app interfaces, marketing materials, or real-world photos.
+These images often suffer from:
+•	cluttered layout
+•	inconsistent spacing
+•	poor typographic hierarchy
+•	uneven color tones
+•	background noise
+•	low clarity or compression artifacts
+•	inconsistent visual styles across mixed sources
+The model must perform UI/UX-driven visual enhancement and output optimized images.
+________________________________________
+Optimization Requirements
+1. UI/UX Layout Enhancement (for screenshots)
+•	adjust margins and spacing
+•	improve typographic readability
+•	align UI components
+•	apply modern design elements (soft shadows, rounded corners, consistent colors)
+•	strengthen visual hierarchy
+2. Style Harmonization
+•	unify brand colors
+•	adjust white balance and color temperature
+•	reduce stylistic inconsistency across images
+3. Photo Enhancement
+•	improve exposure, clarity, and composition
+•	de-noise backgrounds
+•	preserve original semantic content
+•	avoid fabricating new people or objects
+________________________________________
+Image Output Requirements
+Folder A — Original Images
+/images_original
+Folder B — Optimized Images
+/images_optimized
+Folder C — Comparison Images
+/images_comparison
+Each image must have a before–after pairing such as:
+•	input_001_original.png
+•	input_001_optimized.png
+•	input_001_compare.png
